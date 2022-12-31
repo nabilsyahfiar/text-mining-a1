@@ -1,0 +1,54 @@
+version: "3.1"
+
+nlu:
+- intent: ask_definisi_stunting
+  examples: |
+    - apa itu stunting
+    - stunting itu apa
+    
+- intent: ask_ciri_stunting
+  examples: |
+    - tanda tanda
+    - ciri ciri
+    - tanda
+    - ciri
+
+- intent: ask_tanya_stunting
+  examples: |
+    - apakah
+    - anak saya stunting
+    - apakah menderita
+
+- intent: ask_cegah_stunting
+  examples: |
+    - cegah
+    - atasi
+    - mencegah
+    - mengatasi
+    - mengobati
+    - obat
+    
+- intent: ask_ciri_ya
+  examples: |
+    - iya
+    - ya
+    - menderita
+    - mengalami
+    - iya begitu
+    - gitu
+    
+- intent: ask_ciri_tidak
+  examples: |
+    - tidak
+    - tdk
+    - gak
+    - gk
+    - engga
+    - nggak
+    - ngga
+
+- intent: terima_kasih
+  examples: |
+    - makasih
+    - terima kasih
+    - kasih

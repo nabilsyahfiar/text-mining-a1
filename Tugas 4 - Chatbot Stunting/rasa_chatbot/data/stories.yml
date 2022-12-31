@@ -1,0 +1,33 @@
+version: "3.1"
+
+stories:
+
+- story: ya stunting
+  steps:
+  - intent: ask_definisi_stunting
+  - action: utter_jawab_definisi
+  - intent: ask_ciri_stunting
+  - action: utter_jawab_ciri
+  - intent: ask_tanya_stunting
+  - action: utter_jawab_tanya
+  - intent: ask_ciri_ya
+  - action: utter_jawab_ciri_ya
+  - intent: ask_cegah_stunting
+  - action: utter_jawab_cegah
+  - intent: terima_kasih
+  - action: utter_sama_sama
+
+- story: tidak stunting
+  steps:
+  - intent: ask_definisi_stunting
+  - action: utter_jawab_definisi
+  - intent: ask_ciri_stunting
+  - action: utter_jawab_ciri
+  - intent: ask_tanya_stunting
+  - action: utter_jawab_tanya
+  - intent: ask_ciri_tidak
+  - action: utter_jawab_ciri_tidak
+  - intent: ask_cegah_stunting
+  - action: utter_jawab_cegah
+  - intent: terima_kasih
+  - action: utter_sama_sama

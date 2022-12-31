@@ -1,0 +1,36 @@
+version: "3.1"
+
+intents:
+  - ask_definisi_stunting
+  - ask_ciri_stunting
+  - ask_tanya_stunting
+  - ask_ciri_ya
+  - ask_ciri_tidak
+  - ask_cegah_stunting
+  - terima_kasih
+
+responses:
+  utter_jawab_definisi:
+  - text: "Stunting adalah masalah gizi kronis akibat kurangnya asupan gizi dalam jangka waktu panjang sehingga mengakibatkan terganggunya pertumbuhan pada anak."
+
+  utter_jawab_ciri:
+  - text: "Salah satu cirinya adalah berat dan tinggi badan kecil."
+
+  utter_jawab_tanya:
+  - text: "Apakah anak anda menderita salah satu dari ciri - ciri dari stunting?"
+
+  utter_jawab_ciri_ya:
+  - text: "Kalau begitu, kemungkinan anak anda mengalami stunting."
+
+  utter_jawab_ciri_tidak:
+  - text: "Anak anda tidak mengalami stunting."
+
+  utter_jawab_cegah:
+  - text: "Untuk mencegah stunting, anda harus mengetahui penyebabnya. Lalu lakukan 4 hal berikut. 1. Pemberian pola asuh yang tepat. 2. Memberikan MPASI yang optimal. 3. Mengobati penyakit yang dialami anak. 4. Perbaikan kebersihan lingkungan dan penerapan hidup bersih keluarga."
+  
+  utter_sama_sama:
+  - text: "Sama sama, selamat tinggal."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
